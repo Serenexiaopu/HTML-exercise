@@ -1,0 +1,77 @@
+#container-change{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+
+}
+
+.picColor{
+		width:1600px;
+		height:50px;
+		background-color: #ff9a9aba;
+		margin-bottom: 20px;
+		mix-blend-mode: color-burn;
+		
+		}
+
+	
+
+
+.picColor2
+{
+		width:50px;
+		height:1000px;
+		background-color: #ff9a9aba;
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-right: 20px;
+
+	
+		}
+
+.picColor3
+{
+		width:50px;
+		height:1000px;
+		background-color: #ff9a9aba;
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-right: 70px;
+		position: absolute;
+
+	
+		}
+
+
+	.picColor3:hover
+	{
+		background:#9aaaffba;;
+		width:1600px;
+		height:50px;
+		margin-bottom: 70px;
+		position: absolute;
+
+		
+	}
+
+
+#container-change{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+margin-top:-1000px;
+position:fixed;
+}
+
+#container-change2{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+margin-top:0px;
+width:100%;
+height:100%;
+mix-blend-mode: color-burn;
+
+
+}
+
